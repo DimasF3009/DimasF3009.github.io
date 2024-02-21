@@ -7,7 +7,7 @@
     width: 90px;
 }
 
-
+/* Banner */
 #wrapper {
     width: 100%;
     opacity: 90%;
@@ -16,6 +16,8 @@
 .container{
     display: flex;
 }
+
+
 /* kiri */
 .kiri{
     width: 50%;
@@ -142,3 +144,23 @@
 }
   
   
+
+/* HANDPHONE */
+@media (max-width: 600px){
+    /* Banner Handphone */
+    .container{
+        display: block;
+    }
+    .kiri{
+        width: 100%;
+    }
+    .kanan{
+        width: 100%;
+    }
+
+    #logo{
+        width: auto;
+        height: auto;
+    }
+
+}
