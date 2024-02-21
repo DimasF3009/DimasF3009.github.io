@@ -60,15 +60,6 @@
     background-position: center;
 }
 
-#item{
-   padding: 10px;
-   height: 22rem;
-}
-.card{
-    width: 13rem;
-    margin: 0.5rem;
-}
-
 :root {
     --primary: #ffffff; /* Warna putih sebagai warna utama */
 }
@@ -163,10 +154,6 @@
         width: 100%;
         font-size: 80%;
     }
-
-    #logo{
-        width: auto;
-        height: auto;
-    }
+    
 
 }
