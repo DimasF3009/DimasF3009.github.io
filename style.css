@@ -153,9 +153,15 @@
     }
     .kiri{
         width: 100%;
+        font-size: 80%;
+    }
+    .kiri h1 span{
+        font-size: 90%;
+        text-align: left;
     }
     .kanan{
         width: 100%;
+        font-size: 80%;
     }
 
     #logo{
