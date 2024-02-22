@@ -47,3 +47,8 @@ body {
 .addres{
   margin-left: 8rem;
 }
+@media (max-width: 600px){
+  .addres{
+    margin-left: 45px;
+  }
+}
