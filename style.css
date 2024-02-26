@@ -250,6 +250,17 @@ footer div:not(:last-child) {
      .wa div span{
          display: none;
      }
+
+     /* FOOTER */
+     footer{
+        text-align: start;
+        background-color: rgb(195, 194, 194);
+        font-size: 12px;
+    }
+
+    .footer1 img{
+        width: 150px;
+    }
     
 
 }
