@@ -1,6 +1,6 @@
 *{
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 
 #navbarNav{
@@ -176,6 +176,7 @@ footer {
     padding: 20px;
     background-color: rgb(195, 194, 194);
     color: white;
+    text-align: center;
 }
     
 footer div {
@@ -183,15 +184,8 @@ footer div {
     position: relative;
     height: auto;
 }
-    
-footer div:not(:last-child) {
-    border-right: 3px solid #ffffff;
-}
 
 /* foter1 */
-.footer1{
-    text-align: center;
-}
 .footer1 p{ 
     text-align: start;
 }
@@ -204,7 +198,6 @@ footer div:not(:last-child) {
 .footer2{
     display: flex;
     flex-direction: column;
-    text-align: center;
 }
 .footer2 span{
     text-align: start;
@@ -213,7 +206,6 @@ footer div:not(:last-child) {
 .footer3{
     display: flex;
     flex-direction: column;
-    text-align: center;
 }
 .footer3 span{
     text-align: start;
@@ -255,11 +247,11 @@ footer div:not(:last-child) {
      footer{
         text-align: start;
         background-color: rgb(195, 194, 194);
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .footer1 img{
-        width: 150px;
+        width: 145px;
     }
     
 
