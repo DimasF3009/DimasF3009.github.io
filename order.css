@@ -1,0 +1,46 @@
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.card{
+    margin: auto;
+    text-align: center;
+    width: 40rem;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+}
+  
+.card img{
+    max-width: 200px;
+    height: 50px;
+}
+  
+.addres{
+    margin-left: 8rem;
+}
+
+.hero blockquote ol b{
+    color: green;
+}
+
+.hero blockquote{
+    width: 80%;
+    padding-left:5rem;
+}
+
+.hero blockquote{
+    text-align: justify;
+}
+
+@media (max-width: 600px){
+    .card{
+        width: 95%;
+    }
+    .hero blockquote{
+        padding-left: 0px;
+        
+    }
+}

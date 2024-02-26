@@ -145,6 +145,7 @@
     bottom: 10px;
     padding: 10px;
     border-radius: 20px;
+    z-index: 3;
 }
 .wa a{
     text-decoration: none;
@@ -152,13 +153,76 @@
     font-size: 1.2rem;
     display: flex;
 }
+
+.wa a:hover{
+    color: white;
+}
+
+.wa a span:hover{
+    color: white;
+}
 .wa img{
     max-width: 35px;
 }
 .wa a span{ 
     margin-top: 0px;
 }
-  
+
+/* FOOTER */
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    background-color: rgb(195, 194, 194);
+    color: white;
+}
+    
+footer div {
+    padding: 10px;
+    position: relative;
+    height: auto;
+}
+    
+footer div:not(:last-child) {
+    border-right: 3px solid #ffffff;
+}
+
+/* foter1 */
+.footer1{
+    text-align: center;
+}
+.footer1 p{ 
+    text-align: start;
+}
+
+.footer1 img{
+    width: 200px;
+}
+
+/* footer2 */
+.footer2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.footer2 span{
+    text-align: start;
+}
+
+.footer3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.footer3 span{
+    text-align: start;
+}
+
+.footer3 span a{
+    text-decoration: none;
+    color: white;
+}  
   
 
 /* HANDPHONE */
