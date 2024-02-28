@@ -162,7 +162,7 @@
     color: white;
 }
 .wa img{
-    max-width: 35px;
+    max-width: 30px;
 }
 .wa a span{ 
     margin-top: 0px;
@@ -171,7 +171,7 @@
 /* FOOTER */
 footer {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     padding: 20px;
     background-color: rgb(195, 194, 194);
@@ -201,6 +201,7 @@ footer div {
 }
 .footer2 span{
     text-align: start;
+    margin-left: 50px;
 }
 
 .footer3{
@@ -209,6 +210,7 @@ footer div {
 }
 .footer3 span{
     text-align: start;
+    margin-left: 50px;
 }
 
 .footer3 span a{
@@ -242,6 +244,7 @@ footer div {
     /* wa */
     .wa{
         border-radius: 50%;
+
      }
      .wa div span{
          display: none;
@@ -252,11 +255,22 @@ footer div {
         text-align: start;
         background-color: rgb(195, 194, 194);
         font-size: 14px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 20px;
+        color: white;
     }
 
     .footer1 img{
-        width: 145px;
+        width: 200px;
     }
-    
+
+    .footer2 span{
+        margin-left: 0px;
+    }
+    .footer3 span{
+        margin-left: 0px;
+    }
 
 }
