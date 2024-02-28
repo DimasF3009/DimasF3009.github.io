@@ -245,9 +245,14 @@ footer div {
 
      /* FOOTER */
      footer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 20px;
         text-align: start;
         background-color: rgb(195, 194, 194);
         font-size: 14px;
+        color: white;
     }
 
     .footer1 img{
